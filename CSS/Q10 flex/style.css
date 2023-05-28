@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 1200px;
+    width: 96%;
+    /* border: 1px solid red; */
+    margin: auto auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+/* first row  */
+
+.first_row{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 0;
+    /* border: 1px solid yellow; */
+}
+.blue{
+    height: 100%;
+    width: 30%;
+    background-color: rgb(13, 177, 218);
+}
+.medium_gray{
+    height: 100%;
+    width: 68%;
+    background-color: rgb(167, 165, 165);
+}
+
+
+/* second row  */
+
+.second_row{
+    height: 25%;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-color: rgb(109, 109, 109);
+}
+
+
+/* third row  */
+
+.third_row{
+    height:25% ;
+    width: 100%;
+    display: flex;
+    gap: 3%;
+    margin: 2.5% 0;
+}
+.lightblue1{
+    height: 100%;
+    width: 35%;
+    background-color: rgb(155, 221, 245);
+}
+.lightblue2{
+    height: 100%;
+    width: 35%;
+    background-color: rgb(155, 221, 245);
+}
+.lightblue3{
+    height: 100%;
+    width: 35%;
+    background-color: rgb(155, 221, 245);
+}
+
+
+/* fourth row  */
+
+.fourth_row{
+    height: 25%;
+    width: 100%;
+    background-color: rgb(192, 190, 190);
+
+}
+
+@media screen and (max-width: 300px) {
+    .container{
+        height: 650px;
+    }
+    .third_row{
+        /* border: 1px solid green; */
+        height: 35%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 1% 0;
+    }
+    .lightblue1{
+        height: 30%;
+        width: 100%;
+    }
+    .lightblue2{
+        height: 30%;
+        width: 100%;
+
+    }
+    .lightblue3{
+        height: 30%;
+        width: 100%;
+
+    }
+}
+
+@media screen and (min-width: 301px) and (max-width : 500px) {
+    .container{
+        height: 800px;
+    }
+    .third_row{
+        /* border: 1px solid green; */
+        height: 35%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 1% 0;
+    }
+    .lightblue1{
+        height: 30%;
+        width: 100%;
+    }
+    .lightblue2{
+        height: 30%;
+        width: 100%;
+
+    }
+    .lightblue3{
+        height: 30%;
+        width: 100%;
+
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width : 800px) {
+    .container{
+        height: 700px;
+        /* border: 1px solid red; */
+    }
+}
+
+@media screen and (min-width: 801px) and (max-width : 1000px) {
+    .container{
+        height: 700px;
+    }
+}

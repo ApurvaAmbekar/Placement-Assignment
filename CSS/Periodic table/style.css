@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 500%;
+    /* margin: 0 auto; */
+    text-align: center;
+}
+.container{
+    width: 74%;
+    display: grid;
+    grid-template-columns: 70px 50px 50px 10px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px ;
+    grid-template-rows:60px 50px 50px 50px 50px 50px 50px 50px 10px 50px 50px 50px;
+    gap: 5px;
+    /* border: 2px solid red; */
+    /* border-radius: 20px; */
+    margin: 1% auto;
+}
+.GP{
+    position: relative;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.GP p{
+    text-align: center;
+}
+.right_arrow{
+    position: absolute;
+    /* right: -10px; */
+    left: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.down_arrow{
+    /* border: 2px solid yellow; */
+    position: absolute;
+    left: 50%;
+    transform:translateX(-50%) ;
+    top: 100%;
+}
+.col_nums{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* vertical-align: middle; */
+    /* padding: auto 0; */
+}
+
+.row_num{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.numred{
+    border: 1px solid black;
+    text-align: center;
+    font-size: larger;
+    background-color: rgb(243, 116, 116);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.numred:hover{
+    background-color: rgb(246, 46, 46);
+    cursor: pointer;
+}
+.numblue{
+    border: 1px solid black;
+    text-align: center;
+    font-size: larger;
+    background-color: rgb(116, 220, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.numblue:hover{
+    background-color:rgb(12, 191, 232);
+    cursor: pointer;
+}
+.numyellow{
+    border: 1px solid black;
+    text-align: center;
+    font-size: larger;
+    background-color: rgb(243, 241, 116);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.numyellow:hover{
+    background-color: rgb(241, 207, 16);
+    cursor: pointer;
+}
+.numgreen{
+    border: 1px solid black;
+    text-align: center;
+    font-size: larger;
+    background-color: rgb(116, 243, 122);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.numgreen:hover{
+    background-color: rgb(15, 197, 27);
+    cursor: pointer;
+}
+.star{
+    text-align: center;
+    /* font-size: 150%; */
+}
+.star2{
+    text-align: center;
+}
