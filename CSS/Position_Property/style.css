@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 1440px;
+    width: 100%;
+    position: relative;
+
+}
+.fixed{
+    height: 100px;
+    width:  100px;
+    border: 1px solid black;
+    background-color: firebrick;
+    color: white;
+    position: fixed;
+    left: 80%;
+    bottom: 10%;
+    /* bottom: 100%; */
+}
+.sticky{
+    height: 100px;
+    width:  100px;
+    border: 1px solid black;
+    background-color: seashell;
+    color: rgb(32, 26, 26);
+    position:sticky;
+    top: 10px;
+}
+.absolute{
+    height: 100px;
+    width:  100px;
+    border: 1px solid black;
+    background-color: aqua;
+    color: rgb(32, 26, 26);
+    position: absolute;
+    top: 20%; 
+    left: 45%;
+
+}
+.blank{
+    height: 800px;
+
+}
