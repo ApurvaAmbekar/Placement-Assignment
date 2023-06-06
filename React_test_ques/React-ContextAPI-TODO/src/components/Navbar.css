@@ -1,0 +1,11 @@
+.navbar {
+    background-color: #BB2CD9;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar-brand {
+        font-size: 15px;
+    }
+}

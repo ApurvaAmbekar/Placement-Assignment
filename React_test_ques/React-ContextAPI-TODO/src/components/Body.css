@@ -1,0 +1,28 @@
+/* .main-body {
+    height: 90vh;
+} */
+.today {
+    width: 50vw;
+    border: 2px solid black;
+}
+
+.todos {
+    overflow-x: hidden;
+}
+.list-group-items {
+    margin: 10px 0;
+    padding: 10px 20px;
+    border: 1px solid #99AAAB;
+    border-radius: 5px;
+    font-weight: lighter;
+    font-size: 1.2rem;
+}
+.icon {
+    font-size: 2.5rem;
+    margin-top: 5px;
+    color: #45CE30;
+}
+
+button:focus {
+    outline: none;
+}

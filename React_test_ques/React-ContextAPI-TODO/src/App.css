@@ -1,0 +1,7 @@
+*::selection {
+  background: transparent;
+}
+
+*:focus {
+  outline: none;
+}
